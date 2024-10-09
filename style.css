@@ -1,0 +1,177 @@
+body {
+    font-family: Roboto;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.content1 {
+    background: #1f2937;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 100px 245px;
+}
+
+.content1-left {
+    flex: 1;
+}
+.content1-right {
+    flex: 1;
+    background: grey;
+    color: #e5e7eb;
+}
+
+.content2 {
+    padding: 25px 0;
+}
+
+#content2-main-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0;
+}
+
+
+
+.img-dummy {
+    border: 3px solid #3882F6;
+    border-radius: 4px;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 0;
+    gap: 80px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #1f2937;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+#main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#sub-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background: #3882F6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 25px;
+}
+
+
+#logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.content3 {
+    background: #e5e7eb;
+    padding: 50px 400px;
+}
+
+.content4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+.sign-up-box {
+    background: #3882F6;
+    padding: 20px 50px;
+    border-radius: 6px;
+    width: 50%;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.sign-up-box text {
+    display: flex;
+    flex-direction: column;
+}
+
+#first-text {
+    font-weight: bold;
+}
+
+#second-text {
+    font-size: 14px;
+}
+
+#button { 
+    border: solid,#E5e7eb;
+    border-radius: 8px;
+}
+
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 50;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: right;
+    font-style: bold;
+}
+
+.footer {
+    text-align: center;
+    background: #1f2937;
+    padding: 20px;
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5e7eb;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
